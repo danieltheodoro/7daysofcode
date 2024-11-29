@@ -1,0 +1,121 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+    box-sizing: border-box;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+  :root {
+    --preto-logo: #3A404E;
+    --preto-titulos: #101828;
+    --cinza-texto: #667085;
+    --vermelho-destaque: #8E2424;
+  }
+
+  .cabecalho {
+    display: flex;
+    padding: 18px 80px;
+  }
+
+  .cabecalho__nav{
+    display: flex;
+    padding: 0px 32px;
+    width: 100%;
+    gap: 119px;
+    
+  }
+
+  .cabecalho__nav__logo {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+    color: var(--preto-logo);
+    font-family: "Inter", sans-serif;
+    font-size: 18px;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+  }
+
+  .cabecalho__nav__principal {
+    display: flex;
+    gap: 32px;
+    font-family: "Inter", sans-serif;
+    color: var(--cinza-texto);
+    font-size: 16px;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    align-items: center;
+  }
+  
+  .cabecalho__nav__usuario {
+    display: flex;
+    margin-left: auto;
+    font-family: "Inter", sans-serif;
+    color: var(--cinza-texto);
+    font-size: 16px;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    gap:12px;
+    align-items: center;
+  }
+
+  .cabecalho__nav__usuario__entrar {
+    padding:10px 18px;
+  }
+
+  .cabecalho__nav__usuario__botao {
+    border: solid 1px var(--vermelho-destaque);
+    border-radius: 8px;
+    color: white;
+    background-color: var(--vermelho-destaque);
+    padding:10px 18px;
+  }
+
+ 
