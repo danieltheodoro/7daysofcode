@@ -118,4 +118,50 @@ table {
     padding:10px 18px;
   }
 
+  .cabecalho__texto{
+    height: 407px;
+    width:100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .cabecalho__texto__1 {
+    margin-top: 96px;
+    font-family: "Inter", sans-serif;
+    color: var(--vermelho-destaque);
+    text-align: center;
+    font-size: 16px;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    width:100%;
+  }
+
+  .cabecalho__texto__2 {
+    margin-top: 24px;
+    padding: 0px 17px;
+    font-family: "Inter", sans-serif;
+    color: var(--preto-titulos);
+    text-align: center;
+    font-size: 48px;
+    letter-spacing: -2%;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    width:100%;
+  }
+
+  .cabecalho__texto__3 {
+    margin-top: 24px;
+    font-family: "Inter", sans-serif;
+    color: var(--cinza-texto);
+    text-align: center;
+    font-size: 20px;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    width: 792px;
+    padding: 12px 1px;
+    line-height: 1.5; 
+  }
  
