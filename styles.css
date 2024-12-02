@@ -120,10 +120,6 @@ table {
 
   .cabecalho__texto{
     height: 407px;
-    width:100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
   }
   .cabecalho__texto__1 {
     margin-top: 96px;
@@ -152,7 +148,7 @@ table {
   }
 
   .cabecalho__texto__3 {
-    margin-top: 24px;
+    margin: 24px auto;
     font-family: "Inter", sans-serif;
     color: var(--cinza-texto);
     text-align: center;
@@ -160,8 +156,54 @@ table {
     font-optical-sizing: auto;
     font-weight: 400;
     font-style: normal;
-    width: 792px;
+    max-width: 792px;
     padding: 12px 1px;
     line-height: 1.5; 
+  }
+  .metricas {
+padding: 0px 80px 96px 80px;
+  }
+  .metricas__container {
+    padding: 0px 32px;
+    display: flex;
+    justify-content: space-between;
+    gap:32px;
+  }
+  .metricas__item {
+    margin-bottom: 24px;
+  }
+
+  .metricas__item__titulo {
+    font-family: "Inter", sans-serif;
+    color: var(--vermelho-destaque);
+    font-size: 60px;
+    line-height: 72px;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    letter-spacing: -2%;
+  }
+
+  .metricas__item__tipo {
+    margin-top: 12px;
+    font-family: "Inter", sans-serif;
+    color: var(--preto-titulos);
+    font-size: 18px;
+    line-height: 28px;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+  }
+
+  .metricas__item__descricao {
+    margin-top: 8px;
+    font-family: "Inter", sans-serif;
+    color: var(--cinza-texto);
+    font-size: 16px;
+    line-height: 24px;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    max-width: 280px;
   }
  
