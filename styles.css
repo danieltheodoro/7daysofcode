@@ -162,6 +162,7 @@ table {
   }
   .metricas {
 padding: 0px 80px 96px 80px;
+height: 288px;
   }
   .metricas__container {
     padding: 0px 32px;
@@ -207,3 +208,62 @@ padding: 0px 80px 96px 80px;
     max-width: 280px;
   }
  
+  .vagas{
+    width: 100%;
+    padding: 96px 80px;
+    text-align: center;
+  }
+
+  .vagas__talentos__textos {
+    padding: 0px 32px;
+  }
+
+  .vagas__talentos__textos__badge{
+    padding: 4px 12px;
+    color: var(--vermelho-destaque);
+    background-color: rgba(142, 36, 36, 0.05);
+    width: 125px;
+    height: 28px;
+    border-radius: 18px;
+    margin: 0px auto;
+    font-family: "Inter", sans-serif;
+    font-size: 14px;
+    line-height: 20px;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    max-width: 125px;
+    
+  }
+
+  .vagas__talentos__textos__heading{
+    margin-top: 16px;
+    color: var(--preto-titulos);
+    font-family: "Inter", sans-serif;
+    font-size: 36px;
+    letter-spacing: -2%;
+    line-height: 44px;
+    font-optical-sizing: auto;
+    font-weight:600;
+    font-style: normal;
+  }
+
+  .vagas__talentos__textos__descricao{
+    margin-top: 20px;
+    color: var(--cinza-texto);
+    font-family: "Inter", sans-serif;
+    font-size: 20px;
+    line-height: 30px;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+
+
+  .vagas__talentos__imagem {
+    padding: 0px 32px;
+    margin-top: 64px;
+    text-align: center;
+
+  }
