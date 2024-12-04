@@ -11,7 +11,6 @@ O desafio busca colocar em prática conceitos fundamentais de **HTML**, **CSS**,
 - **HTML5**
 - **CSS3**
 - **Flexbox**
-- **Grid Layout**
 - **Figma** (para referência de layout)
 
 ---
@@ -40,7 +39,6 @@ O projeto foi organizado em etapas diárias, seguindo o cronograma do desafio:
 
 ### Dia 6: Seção de Depoimentos
 - Criada a seção com depoimentos de colaboradores e clientes.
-- Utilizado **Grid Layout** para organizar o conteúdo.
 
 ### Dia 7: ------
 -----
